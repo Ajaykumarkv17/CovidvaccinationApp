@@ -1,0 +1,12 @@
+{{!< layouts/main}}
+
+<section class="search-section">
+  <h1>Search Vaccination Centers</h1>
+  <form class="search-form" action="/centers/search" method="POST">
+    <div class="form-group">
+      <label for="location">Location</label>
+      <input type="text" id="location" name="location" required>
+    </div>
+    <button class="btn-primary" type="submit">Search</button>
+  </form>
+</section>

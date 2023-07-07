@@ -1,0 +1,20 @@
+{{!< layouts/main}}
+
+<section class="results-section">
+  <h1>Search Results</h1>
+  {{#if centers.length}}
+    <ul class="center-list">
+      {{#each centers}}
+        <li class="center-item">
+          <h2>{{name}}</h2>
+          <p>Location: {{location}}</p>
+          <p>Working Hours: {{working_hours}}</p>
+          <p>Slots Available: {{slots_available}}</p>
+          <a href="/centers/{{id}}">Select</a>
+        </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <p>No centers found.</p>
+  {{/if}}
+</section>

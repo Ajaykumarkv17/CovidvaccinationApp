@@ -1,0 +1,246 @@
+
+html, body, ul, li, h1, h2, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Authentication form styles */
+  .auth-section {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auth-form {
+    margin-top: 20px;
+  }
+  
+  .auth-form .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .auth-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .auth-form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .auth-form .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .auth-form .btn-primary:hover {
+    background-color: #555;
+  }
+  
+  /* Search section styles */
+  .search-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-form .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .search-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .search-form input[type="text"],
+  .search-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .search-form .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .search-form .btn-primary:hover {
+    background-color: #555;
+  }
+  
+  .results-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .center-list {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  .center-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .center-item h2 {
+    margin-bottom: 5px;
+  }
+  
+  /* Confirmation section styles */
+  .confirmation-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .confirmation-section h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Dashboard section styles */
+  .dashboard-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dashboard-section h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Apply section styles */
+  .apply-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .apply-form .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .apply-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .apply-form input[type="text"],
+  .apply-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .apply-form .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .apply-form .btn-primary:hover {
+    background-color: #555;
+  }
+  
+  /* Error section styles */
+  .error-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-section h1 {
+    margin-bottom: 10px;
+  }
+  
+  .error-section p {
+    margin-bottom: 10px;
+  }
+  
